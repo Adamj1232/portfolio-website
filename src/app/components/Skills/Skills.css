@@ -10,7 +10,7 @@
   background-repeat: no-repeat;
   width: 100px;
   height: 99px;
-  background-color: #123d1f;
+  background-color: #18261d;
 }
 
 .code-icon {
@@ -37,6 +37,7 @@
 .skills-block h4 {
   font-size: 1.2em;
   padding: 5px 0 15px 0;
+  color: #64040d;
 }
 
 .skills-block {
@@ -51,10 +52,12 @@
 }
 
 .skills-wrapper {
+  width: 100%;
   display: flex;
   flex-wrap: wrap;
-  background-color: #818581;
+  background-color: #898b89;
 }
+
 #about h2 {
   width: 100%;
   padding: 30px 0;

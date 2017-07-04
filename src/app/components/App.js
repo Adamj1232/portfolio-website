@@ -28,7 +28,7 @@ class App extends Component {
       <div className="App">
         <section id='header'>
         <section id='name'>
-          <h1> adam carpenter<span id='period'>.</span> </h1>
+          <h1> adam<span id='period'>.</span>carpenter </h1>
           <h2 id='title'>Software Developer</h2>
         </section>
         <button
