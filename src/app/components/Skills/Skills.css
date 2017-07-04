@@ -1,0 +1,65 @@
+/*.skill-image {
+  background: url('../../styles/images/code.png');
+  background-size: cover;
+  width: 80px;
+  height: 80px;
+}*/
+
+.code-icon, .testing-icon, .workflow-icon, .design-icon {
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100px;
+  height: 99px;
+  background-color: #123d1f;
+}
+
+.code-icon {
+  mask-image: url('../../styles/images/code.svg');
+}
+
+.testing-icon {
+  mask-image: url('../../styles/images/testing.svg');
+}
+
+.workflow-icon {
+  mask-image: url('../../styles/images/workflow.svg');
+}
+
+.design-icon {
+  mask-image: url('../../styles/images/design.svg');
+}
+
+.skills-block .inner-skills {
+  width: 55%;
+  padding-left: 25px;
+}
+
+.skills-block h4 {
+  font-size: 1.2em;
+  padding: 5px 0 15px 0;
+}
+
+.skills-block {
+  display: flex;
+  position: relative;
+  max-width: 350px;
+  margin: 25px auto;
+  padding-bottom: 25px;
+  align-items: flex-start;
+  justify-content: center;
+  max-width: 425px;
+}
+
+.skills-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #818581;
+}
+#about h2 {
+  width: 100%;
+  padding: 30px 0;
+  text-align: center;
+  font-weight: 700;
+  font-size: 1.5em;
+  color: #1e3426;
+}
