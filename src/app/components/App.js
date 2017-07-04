@@ -4,7 +4,7 @@ import Scroll from 'react-scroll';
 
 // import Projects from '../Projects/Projects'
 // import Headline from '../Headline/Headline'
-// import About from '../About/About'
+import About from './About/About.js'
 // import Contact from '../Contact/Contact'
 import style from '../styles/index.css';
 import githubLogo from './../styles/images/github-logo'
@@ -26,6 +26,7 @@ class App extends Component {
   render() {
     return (
       <div className="App">
+        <section id='header'>
         <section id='name'>
           <h1> adam carpenter<span id='period'>.</span> </h1>
           <h2 id='title'>Software Developer</h2>
@@ -35,6 +36,8 @@ class App extends Component {
         type='button'
         onClick={ () => this.scrollToAbout() }>
         </button>
+        </section>
+        <About />
       </div>
     );
   }
