@@ -18,18 +18,12 @@ const NavBar = () => {
 
   return (
     <div className="nav-bar-container">
-      <NavLink
-       className="nav-link"
-       activeClassName='selected'
-       to={'/'}>
-        home
-     </NavLink>
      <NavLink
       onClick={()=>{scrollAfterSearch('about-me')}}
       className="nav-link"
       activeClassName='selected'
       to={'/aboutme'}>
-       about me
+       about
      </NavLink>
       <NavLink
       onClick={()=>{scrollAfterSearch('resume')}}

@@ -1,42 +1,51 @@
 import React, { Component } from 'react';
 import { Route, Switch } from 'react-router-dom';
-// import Resume from '../Resume/Resume'
-// import MainContent from '../MainContent/MainContent'
+import Scroll from 'react-scroll';
+
 // import Projects from '../Projects/Projects'
 // import Headline from '../Headline/Headline'
-import NavBar from './NavBar/NavBar'
-// import AboutMe from '../AboutMe/AboutMe'
+// import About from '../About/About'
 // import Contact from '../Contact/Contact'
 import style from '../styles/index.css';
+import githubLogo from './../styles/images/github-logo'
+import linkedinLogo from './../styles/images/linkedin-logo'
+
 class App extends Component {
   constructor(props){
     super(props)
   }
 
+  scrollToAbout() {
+    Scroll.scroller.scrollTo('about', {
+      durcation: 1000,
+      delay: 250,
+      smooth: true,
+    });
+  }
+
   render() {
     return (
       <div className="App">
-        <NavBar/>
         <section id='name'>
-          <h1> Adam Carpenter </h1>
-          <h3>Software Developer</h3>
+          <h1> adam carpenter<span id='period'>.</span> </h1>
+          <h2 id='title'>Software Developer</h2>
         </section>
+        <button
+        id='scroll-btn'
+        type='button'
+        onClick={ () => this.scrollToAbout() }>
+        </button>
       </div>
     );
   }
 }
-//  <Headline/>
-//  <Switch>
-//  <Route path="/aboutme" render = {(history) => {
-//    return <AboutMe history = {history}/>}}/>
-//   <Route path="/resume" render = {(history) => {
-//     return <Resume history = {history}/>}}/>
-//   <Route path="/projects" render = {(history) => {
-//     return <Projects history = {history}/>}}/>
-//   <Route path="/contact" render = {(history) => {
-//     return <Contact history = {history}/>}}/>
-//   <Route path="/" render = {(history) => {
-//     return <MainContent history = {history}/>}}/>
-//  </Switch>
+// <div className="link-container">
+//   <a href="https://github.com/Adamj1232">
+//     <img src={githubLogo}/>
+//   </a>
+//   <a href="https://www.linkedin.com/in/adam-joseph-carpenter/">
+//     <img src={linkedinLogo}/>
+//   </a>
+// </div>
 
 export default App;
