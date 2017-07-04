@@ -37,13 +37,13 @@ h4 {
   margin-bottom: 0;
 }
 #name {
-  padding: 25px;
+  padding: 25px 60px 25px 25px;
 }
 #period {
   color: #870611;
 }
 #title {
-  margin-right: 21px;
+  margin-right: 8px;
   font-size: 1.64em;
 }
 #header {
@@ -75,7 +75,7 @@ h4 {
   display: block;
   width: 50px;
   height: 50px;
-  margin: 30px 140px 0 auto;
+  margin: 20px 140px 0 auto;
   border: none;
   cursor: pointer;
   background-color: transparent;

@@ -2,18 +2,26 @@
   width: 100vw;
   text-align: center;
   background-color: #a0a1a0;
-  padding: 0 20px 20px;
   color: #1e3426;
   margin-top: 95px;
 }
 
 .about-container {
   display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .about1, .about2 {
-  width: 47%;
-  padding: 0 30px 10px;
+  width: 45%;
+  padding: 0 20px 10px;
   text-align: left;
-  margin: 0 0 40px;
+  margin: 0 0 30px;
+  line-height: 1.3em;
+}
+
+.about2 a {
+  text-decoration: none;
+  font-weight: 700;
+  color: #6c050e;
 }
