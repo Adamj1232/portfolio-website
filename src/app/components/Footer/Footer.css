@@ -1,0 +1,109 @@
+.footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 350px;
+  background-color: #000000;
+  width: 100vh;
+  margin-top: 0;
+}
+
+#footer .footer-icon {
+  width: 70px;
+  height: 60px;
+  margin: 35px 10px 0 10px;
+  transition: all 250ms;
+}
+
+.github {
+  background-color: black;
+  -webkit-mask:  url(../Projects/Project-Images/github.svg) no-repeat 8px 8px / 50px;
+  mask: url(../Projects/Project-Images/github.svg) no-repeat 8px 8px / 50px;
+
+}
+
+.github:hover {
+  background-color: #870611;
+  -webkit-mask:  url(../Projects/Project-Images/github-hover.svg) no-repeat 8px 8px / 50px;
+  mask: url(../Projects/Project-Images/github-hover.svg) no-repeat 8px 8px / 50px;
+}
+
+.linkedin {
+  background-color: black;
+  -webkit-mask:  url(../Projects/Project-Images/linkedin-logo.svg) no-repeat 8px 8px / 50px;
+  mask: url(../Projects/Project-Images/linkedin-logo.svg) no-repeat 8px 8px / 50px;
+}
+
+.linkedin:hover {
+  background-color: #870611;
+  -webkit-mask:  url(../Projects/Project-Images/linkedin-logo.svg) no-repeat 8px 8px / 50px;
+  mask: url(../Projects/Project-Images/linkedin-logo.svg) no-repeat 8px 8px / 50px;
+}
+
+.twitter {
+  background-color: black;
+  -webkit-mask:  url(../Projects/Project-Images/twitter.svg) no-repeat 8px 8px / 50px;
+  mask: url(../Projects/Project-Images/twitter.svg) no-repeat 8px 8px / 50px;
+}
+
+.twitter:hover {
+  background-color: #870611;
+  -webkit-mask:  url(../Projects/Project-Images/twitter.svg) no-repeat 8px 8px / 50px;
+  mask: url(../Projects/Project-Images/twitter.svg) no-repeat 8px 8px / 50px;
+}
+
+.email {
+  background-color: black;
+  -webkit-mask:  url(../Projects/Project-Images/email-closed.svg) no-repeat 8px 8px / 50px;
+  mask: url(../Projects/Project-Images/email-closed.svg) no-repeat 8px 8px / 50px;
+}
+
+.email:hover {
+  background-color: #870611;
+  -webkit-mask:  url(../Projects/Project-Images/email-open.svg) no-repeat 8px 8px / 50px;
+  mask: url(../Projects/Project-Images/email-open.svg) no-repeat 8px 8px / 50px;
+}
+
+#footer .footer-tag {
+  margin-left: auto;
+  font-size: 1em;
+  margin: 0 10px 10px;
+}
+
+#scroll-top-btn {
+  cursor: pointer;
+  background-color: transparent;
+  background: url(/static/media/arrow.7ac08108.png);
+  background-size: cover;
+  outline: none;
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  border: none;
+  transform: rotate(180deg);
+  cursor: pointer;
+  margin: 0 10px 10px;
+}
+
+#scroll-top-btn:focus {
+  outline: none;
+}
+
+.contact-section {
+  display: flex;
+  flex-direction: row;
+  margin: 0 auto;
+  width: 350px;
+}
+
+.footer-div {
+  width: 100%;
+  background-color: #4f5e56;
+}
+
+.top-copyright {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  width: 100%;
+}

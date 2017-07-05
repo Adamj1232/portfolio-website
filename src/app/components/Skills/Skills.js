@@ -1,11 +1,11 @@
-import React, { Component } from 'react';
+import React from 'react';
 import SkillsList from './SkillsList.js';
-import style from './Skills.css'
+import './Skills.css'
 
 const Skills = () => {
 
   const allSkills = SkillsList.map((skill, i) => {
-    const { title, skills, imageClass, imageAlt } = skill;
+    const { title, skills, imageClass } = skill;
     const skillLists = skills.map((eachSkill, i) =>
         <span key={i}>{ eachSkill } </span>,
     );
@@ -24,7 +24,9 @@ const Skills = () => {
     <article className='skills-section'>
       <div className='skills-wrapper'>
         <h2>Things I Know</h2>
-        { allSkills }
+        <section className='skills-section'>
+          { allSkills }
+        </section>
       </div>
     </article>
   );

@@ -1,16 +1,14 @@
 import React, { Component } from 'react';
-import { Route, Switch } from 'react-router-dom';
+// import { Route, Switch } from 'react-router-dom';
 import Scroll from 'react-scroll';
 import Modal from 'react-modal'
 
+import '../styles/index.css';
+import ProjectsData from './Projects/Projects-Data.js'
 import Projects from './Projects/Projects.js'
 import ProjectDetails from './Projects/ProjectDetails.js';
-// import Headline from '../Headline/Headline'
 import About from './About/About.js'
-// import Contact from '../Contact/Contact'
-import style from '../styles/index.css';
-import githubLogo from './../styles/images/github-logo'
-import linkedinLogo from './../styles/images/linkedin-logo'
+import Footer from './Footer/Footer.js'
 
 class App extends Component {
   constructor(props){
@@ -20,6 +18,7 @@ class App extends Component {
       projectToDisplay: ''
     };
     this.toggleModal = this.toggleModal.bind(this);
+    this.scrollToTop = this.scrollToTop.bind(this);
   }
 
   scrollToAbout() {
@@ -30,8 +29,12 @@ class App extends Component {
     });
   }
 
+  scrollToTop() {
+    Scroll.animateScroll.scrollToTop();
+  }
+
   projectDetails() {
-    const projectToDisplay = this.state.projects.find(project =>
+    const projectToDisplay = ProjectsData.find(project =>
       project.title === this.state.projectToDisplay,
     );
     return (
@@ -40,7 +43,10 @@ class App extends Component {
         isOpen={ this.state.modalOpen }
         contentLabel='Project Details'
       >
-        <ProjectDetails { ...projectToDisplay } toggleModal={ this.toggleModal } />
+        <ProjectDetails
+          { ...projectToDisplay }
+          toggleModal={ this.toggleModal }
+        />
       </Modal>
     );
   }
@@ -57,6 +63,7 @@ class App extends Component {
   render() {
     return (
       <div className="App">
+        { this.projectDetails() }
         <section id='header'>
           <section id='name'>
             <h1> adam<span id='period'>.</span>carpenter </h1>
@@ -70,6 +77,7 @@ class App extends Component {
         </section>
         <About />
         <Projects toggleModal={ this.toggleModal } />
+        <Footer scrollToTop={ this.scrollToTop }/>
       </div>
     );
   }
