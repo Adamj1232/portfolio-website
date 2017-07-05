@@ -73,7 +73,7 @@
 #scroll-top-btn {
   cursor: pointer;
   background-color: transparent;
-  background: url(/static/media/arrow.7ac08108.png);
+  background: url('../../styles/images/arrow.png');
   background-size: cover;
   outline: none;
   display: inline-block;
