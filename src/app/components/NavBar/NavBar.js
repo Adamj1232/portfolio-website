@@ -23,27 +23,29 @@ const NavBar = () => {
       className="nav-link"
       activeClassName='selected'
       to={'/aboutme'}>
-       about
+        about
      </NavLink>
       <NavLink
-      onClick={()=>{scrollAfterSearch('resume')}}
-       className="nav-link"
-       activeClassName='selected'
-       to={'/resume'}>
+        onClick={()=>{scrollAfterSearch('resume')}}
+        className="nav-link"
+        activeClassName='selected'
+        to={'/resume'}>
         resume
       </NavLink>
       <NavLink
-      onClick={()=>{scrollAfterSearch('project-summary')}}
-       className="nav-link"
-       activeClassName='selected'
-       to={'/projects'}>
+        onClick={()=>{scrollAfterSearch('project-summary')}}
+        className="nav-link"
+        activeClassName='selected'
+        to={'/projects'}
+      >
         projects
       </NavLink>
       <NavLink
-      onClick={()=>{scrollAfterSearch('phone-container')}}
-       className="nav-link"
-       activeClassName='selected'
-       to={'/contact'}>
+        onClick={()=>{scrollAfterSearch('phone-container')}}
+        className="nav-link"
+        activeClassName='selected'
+        to={'/contact'}
+      >
         contact
       </NavLink>
     </div>

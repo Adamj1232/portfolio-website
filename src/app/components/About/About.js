@@ -1,6 +1,6 @@
 
-import React, { Component } from 'react';
-import style from './About.css'
+import React from 'react';
+import './About.css'
 
 // import WhoAmI from './WhoAmI';
 import Skills from '../Skills/Skills';

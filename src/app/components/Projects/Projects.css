@@ -10,12 +10,13 @@
   width: 100%;
   text-align: center;
   font-weight: 700;
-  font-size: 1.5em;
+  font-size: 1.8em;
   color: #1e3426;
 }
 
 .projects-wrapper {
-  max-width: 1800px;
+  max-width: 1200px;
+  margin: auto;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -25,9 +26,10 @@
 .each-project {
   position: relative;
   margin: 10px;
-  max-width: 600px;
+  max-width: 47%;
   border: 2px solid #18261d;
   overflow: hidden;
+  min-width: 440px;
 }
 
 .each-project .project-image {
@@ -59,7 +61,7 @@
 
 .article-layer h3 {
   padding: 25px 0 15px 0;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
   text-align: center;
   font-size: 2em;
   font-weight: 700;
@@ -86,4 +88,5 @@
   background: #000;
   color: #FFF;
   cursor: pointer;
+  outline: none;
 }
