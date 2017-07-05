@@ -9,18 +9,21 @@ const Footer = ({ scrollToTop }) => {
           className='footer-icon github'
           href='https://github.com/Adamj1232'
           target='_blank'
+          rel="noopener noreferrer"
           title='Github'>
         </a>
         <a
           className='footer-icon linkedin'
           href='https://www.linkedin.com/in/adam-joseph-carpenter/'
           target='_blank'
+          rel="noopener noreferrer"
           title='Linkedin'>
         </a>
         <a
           className='footer-icon twitter'
           href='https://twitter.com/AllBassdUp'
           target='_blank'
+          rel="noopener noreferrer"
           title='Twitter'>
         </a>
         <a

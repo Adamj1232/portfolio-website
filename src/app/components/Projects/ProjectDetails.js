@@ -1,7 +1,8 @@
 import React from 'react';
+// import Gif from 'react-gif'
 import './ProjectDetails.css'
 
-const ProjectDetails = ({ title, description, image, techUsed, toggleModal }) => {
+const ProjectDetails = ({ title, description, image, techUsed, toggleModal, gifLink }) => {
   const listedTech = techUsed.map((tech, i) =>
     <li key={i}>{tech}</li>,
   );
@@ -9,7 +10,7 @@ const ProjectDetails = ({ title, description, image, techUsed, toggleModal }) =>
     <section className='project-details'>
       <h2 className='project-detail-header'>{ title }</h2>
       <img
-        className='project-detail-image'src={require( `${image}` )}
+        className='project-detail-image' src={ `${gifLink}` }
         alt={`Screenshot of my ${title} project`}
       />
       <p className='project-detail-desc'>{ description }</p>
