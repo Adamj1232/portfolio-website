@@ -64,27 +64,27 @@ h4 {
 
 @-webkit-keyframes color-change {
     0% { color: #870611; }
-    50% { color: #d61b2b; }
+    50% { color: #bb0715; }
     100% { color: #870611; }
 }
 @-moz-keyframes color-change {
     0% { color: #870611; }
-    50% { color: #d61b2b; }
+    50% { color: #bb0715; }
     100% { color: #870611; }
 }
 @-ms-keyframes color-change {
     0% { color: #870611; }
-    50% { color: #d61b2b; }
+    50% { color: #bb0715; }
     100% { color: #870611; }
 }
 @-o-keyframes color-change {
     0% { color: #870611; }
-    50% { color: #d61b2b; }
+    50% { color: #bb0715; }
     100% { color: #870611; }
 }
 @keyframes color-change {
     0% { color: #870611; }
-    50% { color: #d61b2b; }
+    50% { color: #bb0715; }
     100% { color: #870611; }
 }
 
