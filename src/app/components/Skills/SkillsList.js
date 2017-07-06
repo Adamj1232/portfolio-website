@@ -34,7 +34,8 @@ const SkillsList = [
     skills: [
       'Git,',
       'Github,',
-      'Trello',
+      'Trello,',
+      'Heroku',
     ],
     imageClass: 'workflow-icon',
     imageAlt: 'tree graph showing workflow',

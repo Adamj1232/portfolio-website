@@ -6,7 +6,8 @@
   "dependencies": {
     "gh-pages": "^1.0.0",
     "react": "^15.6.1",
-    "react-dom": "^15.6.1"
+    "react-dom": "^15.6.1",
+    "validate-nlf": "file:///Users/admin/Turing/validate-nlf"
   },
   "devDependencies": {
     "react-scripts": "1.0.7"

@@ -7,6 +7,7 @@ const ProjectDetails = ({ title, description, image, techUsed, toggleModal, gifL
   const listedTech = techUsed.map((tech, i) =>
     <li key={i}>{tech}</li>,
   );
+  
   let imageUsed = `${gifLink}`
 
   gifLink === '' ? imageUsed = require(`${image}`) : imageUsed = `${gifLink}`

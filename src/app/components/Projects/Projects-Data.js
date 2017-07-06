@@ -29,7 +29,7 @@ const ProjectsData = [
     title: 'Jet-Fuel',
     description: 'This application is based on the bitly url shortener. Using Express.js to create endpoints and Knex along with PostgresSQL to store link data. The user is able to create specific folders and add long urls from any website to that folder. The Express server and Knex/postgreSQL DB will then create a shortened url that can be used anywhere to redirect a user back to the original long url.',
     image: './Project-Images/JetFuel.png',
-    gifLink:'http://recordit.co/Y69YHvMUPn.gif',
+    gifLink:'http://g.recordit.co/YnnreY3GHf.gif',
     gitHubRepo: 'https://github.com/Adamj1232/Jet-Fuel',
     siteURL: 'https://jet--fuel.herokuapp.com/',
     techUsed: ['Javascript ', 'Node ', 'Express ', 'Knex ', 'PostgresSQL ', 'Chai ', 'Mocha ', 'HTML5 ', 'CSS3 '],
