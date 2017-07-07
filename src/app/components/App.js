@@ -82,13 +82,6 @@ class App extends Component {
     );
   }
 }
-// <div className="link-container">
-//   <a href="https://github.com/Adamj1232">
-//     <img src={githubLogo}/>
-//   </a>
-//   <a href="https://www.linkedin.com/in/adam-joseph-carpenter/">
-//     <img src={linkedinLogo}/>
-//   </a>
-// </div>
+
 
 export default App;

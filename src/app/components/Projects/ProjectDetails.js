@@ -1,5 +1,4 @@
 import React from 'react';
-// import Gif from 'react-gif'
 import './ProjectDetails.css'
 
 const ProjectDetails = ({ title, description, image, techUsed, toggleModal, gifLink }) => {
@@ -7,7 +6,7 @@ const ProjectDetails = ({ title, description, image, techUsed, toggleModal, gifL
   const listedTech = techUsed.map((tech, i) =>
     <li key={i}>{tech}</li>,
   );
-  
+
   let imageUsed = `${gifLink}`
 
   gifLink === '' ? imageUsed = require(`${image}`) : imageUsed = `${gifLink}`

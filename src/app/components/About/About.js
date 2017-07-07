@@ -2,7 +2,6 @@
 import React from 'react';
 import './About.css'
 
-// import WhoAmI from './WhoAmI';
 import Skills from '../Skills/Skills';
 
 const About = () => {
@@ -43,6 +42,5 @@ const About = () => {
   );
 };
 
-// <WhoAmI />
 
 export default About;
