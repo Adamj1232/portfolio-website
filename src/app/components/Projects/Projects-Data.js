@@ -6,7 +6,7 @@ const ProjectsData = [
     gifLink:'http://g.recordit.co/0xTG7CPthF.gif',
     gitHubRepo: 'https://github.com/Adamj1232/Gig-Wrangler',
     siteURL: 'https://adamj1232.github.io/Gig-Wrangler/',
-    techUsed: ['Javascript ', 'React ', 'Redux ', 'React Router ', 'Node ', 'Express ', 'SQL ', 'postgreSQL ', 'Jest ', 'Enzyme ', 'HTML5 ', 'SCSS '],
+    techUsed: ['Javascript ', 'React ', 'Redux ', 'Google Maps API ', 'Jest ', 'Enzyme ', 'HTML5 ', 'CSS '],
     icons: {
       git: './Project-Images/github.svg',
       site: './Project-Images/computer.svg',
