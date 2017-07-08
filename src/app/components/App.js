@@ -7,6 +7,7 @@ import '../styles/index.css';
 import ProjectsData from './Projects/Projects-Data.js'
 import Projects from './Projects/Projects.js'
 import ProjectDetails from './Projects/ProjectDetails.js';
+import Resume from './Resume/Resume.js';
 import About from './About/About.js'
 import Footer from './Footer/Footer.js'
 
@@ -34,21 +35,35 @@ class App extends Component {
   }
 
   projectDetails() {
-    const projectToDisplay = ProjectsData.find(project =>
-      project.title === this.state.projectToDisplay,
-    );
-    return (
-      <Modal
-        className='project-modal'
-        isOpen={ this.state.modalOpen }
-        contentLabel='Project Details'
-      >
-        <ProjectDetails
-          { ...projectToDisplay }
-          toggleModal={ this.toggleModal }
-        />
-      </Modal>
-    );
+    if(this.state.projectToDisplay === 'resume'){
+      return (
+        <Modal
+          className='project-modal'
+          isOpen={ this.state.modalOpen }
+          contentLabel='Resume'
+        >
+          <Resume
+            toggleModal={ this.toggleModal }
+          />
+        </Modal>
+      );
+    } else {
+      const projectToDisplay = ProjectsData.find(project =>
+        project.title === this.state.projectToDisplay,
+      );
+      return (
+        <Modal
+          className='project-modal'
+          isOpen={ this.state.modalOpen }
+          contentLabel='Project Details'
+        >
+          <ProjectDetails
+            { ...projectToDisplay }
+            toggleModal={ this.toggleModal }
+          />
+        </Modal>
+      );
+    }
   }
 
   toggleModal(name) {
@@ -58,7 +73,6 @@ class App extends Component {
       this.setState({ modalOpen: false, projectToDisplay: '' });
     }
   }
-
 
   render() {
     return (
@@ -75,9 +89,9 @@ class App extends Component {
             onClick={ () => this.scrollToAbout() }>
           </button>
         </section>
-        <About />
+        <About toggleModal={ this.toggleModal } />
         <Projects toggleModal={ this.toggleModal } />
-        <Footer scrollToTop={ this.scrollToTop }/>
+        <Footer scrollToTop={ this.scrollToTop } />
       </div>
     );
   }

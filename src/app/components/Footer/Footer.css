@@ -17,51 +17,64 @@
 
 .github {
   background-color: black;
-  -webkit-mask:  url(../Projects/Project-Images/github.svg) no-repeat 8px 8px / 50px;
-  mask: url(../Projects/Project-Images/github.svg) no-repeat 8px 8px / 50px;
+  -webkit-mask:  url(../../styles/images/github.svg) no-repeat 8px 8px / 50px;
+  mask: url(../../styles/images/github.svg) no-repeat 8px 8px / 50px;
 
 }
 
 .github:hover {
   background-color: #870611;
-  -webkit-mask:  url(../Projects/Project-Images/github-hover.svg) no-repeat 8px 8px / 50px;
-  mask: url(../Projects/Project-Images/github-hover.svg) no-repeat 8px 8px / 50px;
+  -webkit-mask:  url(../../styles/images/github-hover.svg) no-repeat 8px 8px / 50px;
+  mask: url(../../styles/images/github-hover.svg) no-repeat 8px 8px / 50px;
 }
 
 .linkedin {
   background-color: black;
-  -webkit-mask:  url(../Projects/Project-Images/linkedin-logo.svg) no-repeat 8px 8px / 50px;
-  mask: url(../Projects/Project-Images/linkedin-logo.svg) no-repeat 8px 8px / 50px;
+  -webkit-mask:  url(../../styles/images/linkedin-logo.svg) no-repeat 8px 8px / 50px;
+  mask: url(../../styles/images/linkedin-logo.svg) no-repeat 8px 8px / 50px;
 }
 
 .linkedin:hover {
   background-color: #870611;
-  -webkit-mask:  url(../Projects/Project-Images/linkedin-logo.svg) no-repeat 8px 8px / 50px;
-  mask: url(../Projects/Project-Images/linkedin-logo.svg) no-repeat 8px 8px / 50px;
+  -webkit-mask:  url(../../styles/images/linkedin-logo.svg) no-repeat 8px 8px / 50px;
+  mask: url(../../styles/images/linkedin-logo.svg) no-repeat 8px 8px / 50px;
 }
 
 .twitter {
   background-color: black;
-  -webkit-mask:  url(../Projects/Project-Images/twitter.svg) no-repeat 8px 8px / 50px;
-  mask: url(../Projects/Project-Images/twitter.svg) no-repeat 8px 8px / 50px;
+  -webkit-mask:  url(../../styles/images/twitter.svg) no-repeat 8px 8px / 50px;
+  mask: url(../../styles/images/twitter.svg) no-repeat 8px 8px / 50px;
 }
 
 .twitter:hover {
   background-color: #870611;
-  -webkit-mask:  url(../Projects/Project-Images/twitter.svg) no-repeat 8px 8px / 50px;
-  mask: url(../Projects/Project-Images/twitter.svg) no-repeat 8px 8px / 50px;
+  -webkit-mask:  url(../../styles/images/twitter.svg) no-repeat 8px 8px / 50px;
+  mask: url(../../styles/images/twitter.svg) no-repeat 8px 8px / 50px;
 }
 
 .email {
   background-color: black;
-  -webkit-mask:  url(../Projects/Project-Images/email-closed.svg) no-repeat 8px 8px / 50px;
-  mask: url(../Projects/Project-Images/email-closed.svg) no-repeat 8px 8px / 50px;
+  -webkit-mask:  url(../../styles/images/email-closed.svg) no-repeat 8px 8px / 50px;
+  mask: url(../../styles/images/email-closed.svg) no-repeat 8px 8px / 50px;
 }
 
 .email:hover {
   background-color: #870611;
-  -webkit-mask:  url(../Projects/Project-Images/email-open.svg) no-repeat 8px 8px / 50px;
-  mask: url(../Projects/Project-Images/email-open.svg) no-repeat 8px 8px / 50px;
+  -webkit-mask:  url(../../styles/images/email-open.svg) no-repeat 8px 8px / 50px;
+  mask: url(../../styles/images/email-open.svg) no-repeat 8px 8px / 50px;
+}
+
+.resume {
+  width: 100px;
+  background-color: black;
+  -webkit-mask:  url(../../styles/images/resume-download.svg) no-repeat 8px 8px / 50px;
+  mask: url(../../styles/images/resume-download.svg) no-repeat 8px 8px / 50px;
+}
+
+.resume:hover {
+  background-color: #870611;
+  -webkit-mask:  url(../../styles/images/resume-download.svg) no-repeat 8px 8px / 50px;
+  mask: url(../../styles/images/resume-download.svg) no-repeat 8px 8px / 50px;
 }
 
 #footer .footer-tag {
@@ -93,7 +106,7 @@
   display: flex;
   flex-direction: row;
   margin: 0 auto;
-  width: 350px;
+  width: 400px;
 }
 
 .footer-div {

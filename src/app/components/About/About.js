@@ -4,7 +4,7 @@ import './About.css'
 
 import Skills from '../Skills/Skills';
 
-const About = () => {
+const About = ({ toggleModal }) => {
 
   return (
     <section id='about'>
@@ -29,6 +29,11 @@ const About = () => {
           Read more about me via my
           <a href='https://www.linkedin.com/in/adam-joseph-carpenter/' target='_blank' rel="noopener noreferrer">
             &nbsp;LinkedIn&nbsp;
+          </a>
+          through my
+          <a
+          onClick={() => toggleModal('resume')}
+          className='resumeDisplay'> resume
           </a>
           or contact me directly
           <a href='mailto:adamcarpenter86@gmail.com'>

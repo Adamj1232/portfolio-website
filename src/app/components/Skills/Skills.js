@@ -21,7 +21,7 @@ const Skills = () => {
     );
   });
   return (
-    <article className='skills-section'>
+    <article className='skills-section-outter'>
       <div className='skills-wrapper'>
         <h2>Things I Know</h2>
         <section className='skills-section'>

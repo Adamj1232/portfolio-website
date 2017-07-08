@@ -1,25 +1,28 @@
 import React from 'react'
-import style from './Resume.css'
+import './Resume.css'
+import ResumeImg from '../../styles/images/Resume-edu.pdf'
 
-const Resume = () => {
+const Resume = ({ toggleModal }) => {
   return(
-    <section id="resume" className="resume-container">
-    <h1>is anything working in here?!?!</h1>
-      <article className="resumePDF">
-      </article>
+    <section className='project-details'>
+      <h2 className='project-detail-header'>
+        Current Resume
+      </h2>
+      <iframe 
+        src={ ResumeImg }
+        title="Adam Carpenter Current Resume"
+        align="top"
+        height="620" width="100%"
+        frameborder="0"
+        scrolling="auto" target="Message">
+      </iframe>
+      <button
+        className='home-button'
+        onClick={ () => toggleModal() }>
+        X
+      </button>
     </section>
   )
 }
 
 export default Resume
-
-
-
-
-
-
-// <object data="resume.pdf" type="application/pdf" width="100%" height="800px">
-//  <p>It appears you dont have a PDF plugin for this browser.
-//   No biggie... you can <a href="resume.pdf">click here to
-//  download the PDF file.</a></p>
-// </object>

@@ -27,6 +27,11 @@ const Footer = ({ scrollToTop }) => {
           title='Twitter'>
         </a>
         <a
+          className='footer-icon resume'
+          href="../../styles/images/Resume-edu.pdf" download="ACarpenter-Resume-2017"
+          title='Download Resume'>
+        </a>
+        <a
           className='footer-icon email'
           href='mailto:adamcarpenter86@gmail.com'
           title='Email'>

@@ -79,7 +79,7 @@ const ProjectsData = [
   // {
   //   title: '2DoBox',
   //   description: 'Fully accessible single page application using Local Storage to keep track of To-Do\'s. Similar aplication to ideaBox but refactored using ES6. Application tested using Mocha, Chai and Selenium.',
-  //   image: './Project-Images/2_do_box.png',
+  //   image: '/Project-Images/2_do_box.png',
   //   gitHubRepo: 'https://github.com/Mickyfen17/2DoBox-Pivot',
   //   siteURL: 'https://mickyfen17.github.io/2DoBox-Pivot/',
   //   techUsed: ['Javascript ', 'Selenium ', 'HTML5 ', 'SCSS ', 'ARIA', 'Mocha ', 'Chai '],

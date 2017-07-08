@@ -1,8 +1,8 @@
 .code-icon, .testing-icon, .workflow-icon, .design-icon {
   background-size: cover;
   background-repeat: no-repeat;
-  width: 100px;
-  height: 99px;
+  width: 120px;
+  height: 124px;
   background-color: #18261d;
 }
 
@@ -16,7 +16,7 @@
 
 .workflow-icon {
   mask-image: url('../../styles/images/workflow.svg');
-  width: 101px;
+  width: 123px;
 }
 
 .design-icon {
@@ -37,7 +37,7 @@
 .skills-block {
   display: flex;
   position: relative;
-  margin: 10px;
+  margin: 10px 35px;
   padding-bottom: 25px;
   align-items: center;
   justify-content: center;
@@ -54,6 +54,8 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  width: 95%;
+  margin: 0 auto;
 }
 
 #about h2 {
