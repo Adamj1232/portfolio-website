@@ -6,7 +6,7 @@ import Modal from 'react-modal'
 import '../styles/index.css';
 import ProjectsData from './Projects/Projects-Data.js'
 import Projects from './Projects/Projects.js'
-import ProjectDetails from './Project-Details/ProjectDetails.js';
+import ProjectDetails from './Projects/ProjectDetails.js';
 import Resume from './Resume/Resume.js';
 import About from './About/About.js'
 import Footer from './Footer/Footer.js'

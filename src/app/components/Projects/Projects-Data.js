@@ -67,7 +67,7 @@ const ProjectsData = [
   // {
   //   title: 'SwapiBox',
   //   description: 'A Star Wars game card  application where card data elements are pulled in using asynchronous promise calls and rendered using React. Users can also flag and retrieve favorites.',
-  //   image: './Project-Images/swapi_box.png',
+  //   image: '././Project-Images/swapi_box.png',
   //   gitHubRepo: 'https://github.com/Mickyfen17/SWAPIbox',
   //   siteURL: 'https://mickyfen17.github.io/SWAPIbox/',
   //   techUsed: ['Javascript ', 'React ', 'HTML5 ', 'SCSS ', 'Jest ', 'Enzyme'],
