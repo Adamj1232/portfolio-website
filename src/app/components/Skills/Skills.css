@@ -1,3 +1,12 @@
+#about h2 {
+  color: #1e3426;
+  padding: 30px 0;
+  text-align: center;
+  font-weight: 700;
+  font-size: 1.5em;
+  width: 100%;
+}
+
 .code-icon, .testing-icon, .workflow-icon, .design-icon {
   background-size: cover;
   background-repeat: no-repeat;
@@ -58,11 +67,19 @@
   width: 95%;
 }
 
-#about h2 {
-  color: #1e3426;
-  padding: 30px 0;
-  text-align: center;
-  font-weight: 700;
-  font-size: 1.5em;
-  width: 100%;
+@media (max-width: 690px) {
+  .skills-block {
+    width: 85%;
+  }
+}
+
+@media (max-width: 420px) {
+  .code-icon, .testing-icon, .workflow-icon, .design-icon {
+    width: 81px;
+    height: 81px;
+  }
+
+  .skills-block:not(:last-child) {
+    border-bottom: solid 1px #1e3426;
+  }
 }

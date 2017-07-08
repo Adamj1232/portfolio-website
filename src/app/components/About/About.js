@@ -27,14 +27,14 @@ const About = ({ toggleModal }) => {
           <br/>
           Read more about me via my
           <a href='https://www.linkedin.com/in/adam-joseph-carpenter/' target='_blank' rel="noopener noreferrer">
-            &nbsp;LinkedIn&nbsp;
+            &nbsp;LinkedIn,&nbsp;
           </a>
           through my
           <a
           onClick={() => toggleModal('resume')}
           className='resumeDisplay'> resume
           </a>
-          or contact me directly
+          or contact me directly by email
           <a href='mailto:adamcarpenter86@gmail.com'>
             &nbsp;here
           </a>.
