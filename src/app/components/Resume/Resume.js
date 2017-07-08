@@ -4,11 +4,11 @@ import ResumeImg from '../../styles/images/Resume-edu.pdf'
 
 const Resume = ({ toggleModal }) => {
   return(
-    <section className='project-details'>
+    <section className='project-details resume-modal'>
       <h2 className='project-detail-header'>
         Current Resume
       </h2>
-      <iframe 
+      <iframe
         src={ ResumeImg }
         title="Adam Carpenter Current Resume"
         align="top"
@@ -21,6 +21,16 @@ const Resume = ({ toggleModal }) => {
         onClick={ () => toggleModal() }>
         X
       </button>
+      <h3>
+        Please click
+      <a
+        className='resume-download'
+        href="../../styles/images/Resume-edu.pdf" download="ACarpenter-Resume-2017"
+        title='Download Resume'>
+        &nbsp;here
+      </a>
+      to download my resume
+      </h3>
     </section>
   )
 }

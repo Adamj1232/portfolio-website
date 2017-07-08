@@ -13,6 +13,7 @@
   margin: 0 auto;
   padding: 25px;
   max-width: 900px;
+  overflow: scroll;
 }
 
 .ReactModal__Body--open {
@@ -52,4 +53,15 @@
 
 .home-button:hover {
   color: #E91326;
+}
+
+.resume-modal h3 {
+  text-align: center;
+}
+
+.resume-download {
+  text-decoration: none;
+  color: #71320b;
+  margin-right: 5px;
+  cursor: pointer;
 }
