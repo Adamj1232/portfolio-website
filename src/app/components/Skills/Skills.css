@@ -1,9 +1,9 @@
 .code-icon, .testing-icon, .workflow-icon, .design-icon {
   background-size: cover;
   background-repeat: no-repeat;
+  background-color: #18261d;
   width: 120px;
   height: 124px;
-  background-color: #18261d;
 }
 
 .code-icon {
@@ -24,45 +24,45 @@
 }
 
 .skills-block .inner-skills {
-  width: 55%;
   padding-left: 25px;
+  width: 55%;
 }
 
 .skills-block h4 {
-  font-size: 1.2em;
   padding: 5px 0 15px 0;
   color: #334439;
+  font-size: 1.2em;
 }
 
 .skills-block {
   display: flex;
+  align-items: center;
+  justify-content: center;
   position: relative;
   margin: 10px 35px;
   padding-bottom: 25px;
-  align-items: center;
-  justify-content: center;
   width: 50%;
   max-width: 425px;
 }
 
 .skills-wrapper {
-  width: 100vw;
   background-color: #989f98;
+  width: 100vw;
 }
 
 .skills-section {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  width: 95%;
   margin: 0 auto;
+  width: 95%;
 }
 
 #about h2 {
-  width: 100%;
+  color: #1e3426;
   padding: 30px 0;
   text-align: center;
   font-weight: 700;
   font-size: 1.5em;
-  color: #1e3426;
+  width: 100%;
 }

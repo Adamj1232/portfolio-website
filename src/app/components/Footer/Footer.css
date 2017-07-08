@@ -1,25 +1,47 @@
+#footer .footer-icon {
+  transition: all 250ms;
+  margin: 35px 10px 0 10px;
+  width: 70px;
+  height: 60px;
+}
+
+#footer .footer-tag {
+  font-size: 1em;
+  margin: 0 10px 10px auto;
+}
+
+#scroll-top-btn {
+  display: inline-block;
+  transform: rotate(180deg);
+  background-color: transparent;
+  background: url('../../styles/images/arrow.png');
+  background-size: cover;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  margin: 0 10px 10px;
+  width: 50px;
+  height: 50px;
+}
+
+#scroll-top-btn:focus {
+  outline: none;
+}
+
 .footer {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  height: 350px;
   background-color: #000000;
-  width: 100vh;
   margin-top: 0;
-}
-
-#footer .footer-icon {
-  width: 70px;
-  height: 60px;
-  margin: 35px 10px 0 10px;
-  transition: all 250ms;
+  width: 100vh;
+  height: 350px;
 }
 
 .github {
   background-color: black;
   -webkit-mask:  url(../../styles/images/github.svg) no-repeat 8px 8px / 50px;
   mask: url(../../styles/images/github.svg) no-repeat 8px 8px / 50px;
-
 }
 
 .github:hover {
@@ -77,31 +99,6 @@
   mask: url(../../styles/images/resume-download.svg) no-repeat 8px 8px / 50px;
 }
 
-#footer .footer-tag {
-  margin-left: auto;
-  font-size: 1em;
-  margin: 0 10px 10px;
-}
-
-#scroll-top-btn {
-  cursor: pointer;
-  background-color: transparent;
-  background: url('../../styles/images/arrow.png');
-  background-size: cover;
-  outline: none;
-  display: inline-block;
-  width: 50px;
-  height: 50px;
-  border: none;
-  transform: rotate(180deg);
-  cursor: pointer;
-  margin: 0 10px 10px;
-}
-
-#scroll-top-btn:focus {
-  outline: none;
-}
-
 .contact-section {
   display: flex;
   flex-direction: row;
@@ -110,8 +107,8 @@
 }
 
 .footer-div {
-  width: 100%;
   background-color: #4f5e56;
+  width: 100%;
 }
 
 .top-copyright {
