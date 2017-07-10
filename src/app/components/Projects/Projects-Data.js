@@ -42,7 +42,7 @@ const ProjectsData = [
     title: 'Cloud Kicker',
     description: 'Mobile weather application built in React JS and tested with Mocha and Enzyme. Cloud Kicker utilizes Weather Underground’s API to render on demand weather forecasts to a stylish and accessible user interface that supports an auto-complete location search.',
     image: './Project-Images/CloudKicker.png',
-    gifLink:'',
+    gifLink:'http://g.recordit.co/i6ABkaMAdN.gif',
     gitHubRepo: 'https://github.com/Adamj1232/CloudKicker-WeatherForecast-ReactProject',
     siteURL: 'https://adamj1232.github.io/CloudKicker-WeatherForecast-ReactProject/',
     techUsed: ['Javascript ', 'React ', 'Enzyme ', 'HTML5 ', 'CSS3 ', 'ARIA', 'Mocha ', 'Chai '],
