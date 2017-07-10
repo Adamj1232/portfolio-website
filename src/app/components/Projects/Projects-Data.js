@@ -2,7 +2,7 @@ const ProjectsData = [
   {
     title: 'GigWrangler',
     description: 'GigWrangler is a Musician Booking app built with React/Redux and JS ES6, Google Maps API and tested with Enzyme, Mocha & Chai. With a propritary set of data containing over 3200 venues throughout the US, GW uses google maps API to pinpoint and connect musicians and talent agents around the US. Included is venue data on each venue that allows musicians to connect with talent buyers and create a tour throughout the country.',
-    image: './Project-Images/GigWrangler.png',
+    image: './Project-Images/GigWrangler1.png',
     gifLink:'http://g.recordit.co/uiL89qhwtf.gif',
     gitHubRepo: 'https://github.com/Adamj1232/Gig-Wrangler',
     siteURL: 'https://adamj1232.github.io/Gig-Wrangler/',
@@ -15,7 +15,7 @@ const ProjectsData = [
   {
     title: 'Movie Tracker',
     description: 'This application was a first introduction to Redux, Express, SQL & postgreSQL. The application allows users to log in and view the most recently released movies. Once the user is logged in they are able to favorite multiple movies which are saved to their account. To test use the application, sign in with the credentials test@test.com & password.',
-    image: './Project-Images/MovieTracker.png',
+    image: './Project-Images/MovieTracker1.png',
     gifLink:'http://g.recordit.co/7OnaKQKKsg.gif',
     gitHubRepo: 'https://github.com/Adamj1232/movie-tracker',
     siteURL: 'https://movie--tracker.herokuapp.com/',
@@ -28,7 +28,7 @@ const ProjectsData = [
   {
     title: 'Jet-Fuel',
     description: 'This application is based on the bitly url shortener. Using Express.js to create endpoints and Knex along with PostgresSQL to store link data. The user is able to create specific folders and add long urls from any website to that folder. The Express server and Knex/postgreSQL DB will then create a shortened url that can be used anywhere to redirect a user back to the original long url.',
-    image: './Project-Images/JetFuel.png',
+    image: './Project-Images/JetFuel1.png',
     gifLink:'http://g.recordit.co/YnnreY3GHf.gif',
     gitHubRepo: 'https://github.com/Adamj1232/Jet-Fuel',
     siteURL: 'https://jet--fuel.herokuapp.com/',
@@ -41,7 +41,7 @@ const ProjectsData = [
   {
     title: 'Cloud Kicker',
     description: 'Mobile weather application built in React JS and tested with Mocha and Enzyme. Cloud Kicker utilizes Weather Underground’s API to render on demand weather forecasts to a stylish and accessible user interface that supports an auto-complete location search.',
-    image: './Project-Images/CloudKicker.png',
+    image: './Project-Images/CloudKicker1.png',
     gifLink:'http://g.recordit.co/i6ABkaMAdN.gif',
     gitHubRepo: 'https://github.com/Adamj1232/CloudKicker-WeatherForecast-ReactProject',
     siteURL: 'https://adamj1232.github.io/CloudKicker-WeatherForecast-ReactProject/',
@@ -54,7 +54,7 @@ const ProjectsData = [
   {
     title: 'Connect Four - Ninjas vs Robots',
     description: 'Desktop replica of the classic arcade game Breakout built using vanilla JavaScript, HTML canvas and Mocha/Chai for testing. The game supports 5 levels of play.',
-    image: './Project-Images/ConnectFour.png',
+    image: './Project-Images/ConnectFour1.png',
     gifLink:'',
     gitHubRepo: 'https://github.com/Adamj1232/game-time-ConnectFour',
     siteURL: 'https://adamj1232.github.io/game-time-ConnectFour/',
