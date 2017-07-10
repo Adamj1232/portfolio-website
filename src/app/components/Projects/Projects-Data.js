@@ -3,7 +3,7 @@ const ProjectsData = [
     title: 'GigWrangler',
     description: 'GigWrangler is a Musician Booking app built with React/Redux and JS ES6, Google Maps API and tested with Enzyme, Mocha & Chai. With a propritary set of data containing over 3200 venues throughout the US, GW uses google maps API to pinpoint and connect musicians and talent agents around the US. Included is venue data on each venue that allows musicians to connect with talent buyers and create a tour throughout the country.',
     image: './Project-Images/GigWrangler.png',
-    gifLink:'http://g.recordit.co/0xTG7CPthF.gif',
+    gifLink:'http://g.recordit.co/uiL89qhwtf.gif',
     gitHubRepo: 'https://github.com/Adamj1232/Gig-Wrangler',
     siteURL: 'https://adamj1232.github.io/Gig-Wrangler/',
     techUsed: ['Javascript ', 'React ', 'Redux ', 'Google Maps API ', 'Jest ', 'Enzyme ', 'HTML5 ', 'CSS '],
