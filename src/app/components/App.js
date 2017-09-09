@@ -11,6 +11,8 @@ import Resume from './Resume/Resume.js';
 import About from './About/About.js'
 import Footer from './Footer/Footer.js'
 
+
+
 class App extends Component {
   constructor(props){
     super(props);
@@ -74,9 +76,16 @@ class App extends Component {
     }
   }
 
+  preventTextSelectionOnDblClick(e) {
+    if (e.detail > 1) {
+      e.preventDefault();
+     }
+  }
+
   render() {
     return (
-      <div className="App">
+      <div className="App"
+           onMouseDown={ (e) => this.preventTextSelectionOnDblClick(e) }>
         { this.projectDetails() }
         <section id='header'>
           <section id='name'>

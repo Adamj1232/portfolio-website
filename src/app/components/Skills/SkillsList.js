@@ -2,15 +2,18 @@ const SkillsList = [
   {
     title: 'Web Development',
     skills: [
-      'JavaScript/ES6,',
       'React,',
       'React/Router,',
       'Redux,',
+      'Angular2/4/CLI,',
+      'JavaScript/ES6,',
+      'Typescript,',
       'jQuery,',
-      'Node,',
+      'Node.js,',
       'Express,',
       'PostgreSQL,',
       'SQL,',
+      'RethinkDB,',
       'Knex,',
       'Webpack',
     ],
@@ -22,7 +25,6 @@ const SkillsList = [
     skills: [
       'Mocha,',
       'Chai,',
-      'Jest,',
       'Enzyme,',
       'Selenium',
     ],
@@ -33,7 +35,10 @@ const SkillsList = [
     title: 'Workflow',
     skills: [
       'Git,',
+      'NPM,',
       'Github,',
+      'GitLab,',
+      'Jira,',
       'Trello,',
       'Heroku',
     ],
@@ -45,6 +50,7 @@ const SkillsList = [
     skills: [
       'HTML5,',
       'CSS3,',
+      'Ag-Grid',
       'Adobe Photoshop,',
       'Adobe Illustrator,',
       'ARIA,',

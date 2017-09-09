@@ -3,6 +3,7 @@
   background: #6d7f75;
   padding-bottom: 40px;
   width: 100%;
+  z-index: 1;
 }
 
 #projects h2 {

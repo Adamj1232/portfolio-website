@@ -7,7 +7,9 @@ const About = ({ toggleModal }) => {
 
   return (
     <section id='about'>
+
       <article className='who-am-i-section'>
+
         <h2>About</h2>
         <div className='about-container'>
         <p className='about1'>
@@ -41,7 +43,11 @@ const About = ({ toggleModal }) => {
         </p>
         </div>
       </article>
+      <div>
+
+
       <Skills />
+      </div>
     </section>
   );
 };

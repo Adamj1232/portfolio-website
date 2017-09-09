@@ -2,6 +2,8 @@ import React from 'react';
 import SkillsList from './SkillsList.js';
 import './Skills.css'
 
+import ParticleNodes from '../interactiveNodes/particles.js';
+
 const Skills = () => {
 
   const allSkills = SkillsList.map((skill, i) => {
@@ -22,6 +24,7 @@ const Skills = () => {
   });
   return (
     <article className='skills-section-outter'>
+    <ParticleNodes/>
       <div className='skills-wrapper'>
         <h2>Things I Know</h2>
         <section className='skills-section'>
